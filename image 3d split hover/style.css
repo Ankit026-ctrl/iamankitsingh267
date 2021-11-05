@@ -1,0 +1,45 @@
+body{
+    background-image: url("whitebg.png");
+    margin: 10;
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 161, 172);
+
+}
+
+.img-container{
+    width: 600px;
+    height: 460px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0,0.3);
+    perspective: 1000px;
+    margin: 25%;
+}
+.img-bar{
+    display: block;
+    background-image: url("/IMG_1075.jpg");
+    height: 115px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s;
+}
+.img-bar:first-child{
+    background-position: 0 0;    
+}
+.img-bar:nth-child(2){
+    background-position: 0 -115px;
+    transition-delay: 0.2s;
+}
+.img-container:hover .img-bar{
+transform: rotateY(360deg);
+}
+.img-bar:nth-child(3){
+    background-position: 0 -230px;
+    transition-delay: 0.4s;
+}
+.img-bar:last-child{
+    background-position: 0 -345px;
+    transition-delay: 0.6s;
+}

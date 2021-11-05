@@ -1,0 +1,106 @@
+
+.card{
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    /* background: gainsboro; */
+    backdrop-filter: opacity(0.5%);
+    box-shadow: slategray;
+    /* border: 1px solid greenyellow; */
+    /* box-shadow: greenyellow; */
+    border-radius:5px;
+    transition: 3s ease-out ease-in-out;
+
+}
+.logo{
+    width: 25px;
+    height: 25px;
+}
+h1{
+   
+    
+    margin: 12px ;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+}
+.title{
+    color: rgb(46, 255, 158);
+    font-size: 18px;
+    margin: 20px;
+    font-weight: bold;
+}
+span{
+    color: white;
+}
+#text{
+   /* background-image: linear-gradient(to left, violet,indigo,rgb(0, 204, 255),rgb(24, 253, 112),yellow,orange,red);
+   -webkit-background-clip: text;
+   color: transparent; */
+   font-family: cursive;
+   -webkit-animation: rainbow 5s infinite;
+   text-shadow: 2px 2px 4px #892fff;
+}
+@-webkit-keyframes rainbow{
+    0%{color: orange;}
+    10%{color:rgb(255, 0, 200)e;}
+    20%{color: rgb(255, 0, 0);}
+    30%{color: rgb(60, 255, 0);}
+    40%{color: rgb(0, 204, 255);}
+    50%{color: rgb(255, 217, 0);}
+    60%{color: rgb(0, 119, 255);}
+    70%{color: rgb(251, 255, 0);}
+    80%{color: rgb(177, 255, 43);}
+    90%{color: purple;}
+    0%{color: rgb(255, 143, 218);}
+}
+
+
+button {
+    position: relative;
+    background-color: transparent;
+    border:3px solid aqua;
+    font-size: 20px;
+    color: rgb(255, 251, 14);
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    margin: 15px;
+    margin-top: 20px;
+    transition: 1s ease-in-out ;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    
+}
+a::after{
+    color: rgb(7, 255, 243);
+    background: aquamarine;
+}
+
+
+button:hover {
+    /* opacity: 0.7; */
+    background: aquamarine;
+}
+img{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+.myimg{
+    border: 2px solid aquamarine;
+   
+}
